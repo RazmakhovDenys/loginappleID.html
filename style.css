@@ -1,0 +1,24 @@
+header {
+    position: fixed;
+
+}
+
+.apple p {
+    position: absolute;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    width: 500px;
+    height: 23px;
+    left: 28px;
+    top: -21px;
+}
+
+.apple img {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+}
+
+body {
+    display: flex;
+}
