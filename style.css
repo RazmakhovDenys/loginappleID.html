@@ -22,3 +22,14 @@ header {
 body {
     display: flex;
 }
+
+.dottets {
+    position: absolute;
+    font-size: 53px;
+    left: 1000px;
+}
+
+.dottets:focus {
+    background-color: grey;
+    color: white;
+}
