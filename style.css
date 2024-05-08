@@ -30,3 +30,131 @@ body {
     height: 23px;
     left: 1280px;
 }
+
+.appleID {
+    display: flex;
+    top: 90px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 490px;
+    padding: -50px;
+}
+
+h1 {
+    position: absolute;
+    font-size: 50px;
+    font-family: Helvetica, sans-serif; 
+    left: 300px;
+    bottom: 100px;
+}
+
+.p1 {
+    position: absolute;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif; 
+    left: 250px;
+    bottom: 20px;
+    opacity: 0.4;
+    border: rgb(58, 56, 56) 1px solid;
+    padding: 18px 450px 18px 18px;
+    border-radius: 10px;
+}
+
+.arrow {
+    display: flex;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 220px;
+    left: 925px;
+}
+
+.p2 {
+    position: absolute;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif; 
+    left: 550px;
+    top: 600px;
+    opacity: 0.9;
+}
+
+.square {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 510px;
+    top: 615px;
+    z-index: 0;
+}
+
+.square:focus {
+    z-index: 1;
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlwbuyotxi-LbjelG93PquVKJnU_cZSC7FQ&s);
+}
+
+.rememberpassword {
+    position: absolute;
+    text-decoration: none;
+    top: 700px;
+    color: blue;
+    left: 580px;
+    font-size: 18px;
+}
+
+.makeID {
+    position: absolute;
+    text-decoration: none;
+    top: 735px;
+    color: blue;
+    left: 575px;
+}
+
+.makeID:hover {
+    border-bottom: 1px solid blue;
+}
+
+.rememberpassword:hover {
+    border-bottom: 1px solid blue;
+
+}
+
+footer  {
+    position: absolute;
+    display: flex;
+    background-color: rgb(226, 208, 208);
+    font-size: 13px;
+    top: 1000px;
+    padding: 30px 1000px 30px 500px;
+}
+
+footer a {
+    position: absolute;
+    text-decoration: none;
+    top: 20px;
+    color: gray;
+    padding-bottom: 55px;
+}
+
+.a1 {
+    position: absolute;
+    left: 130px;
+}
+
+.a2 {
+    position: absolute;
+    left: 230px;
+}
+
+.a3 {
+    position: absolute;
+    left: 400px;
+}
+
+footer p {
+    position: absolute;
+    left: 900px;
+    text-decoration: none;
+    color: grey;
+    bottom: 15px;
+}
